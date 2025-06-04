@@ -1,0 +1,63 @@
+## Ignore arquivos e pastas do Visual Studio ##
+.vs/
+*.user
+*.suo
+*.sdf
+*.cache
+*.log
+
+## Ignore pastas de build ##
+bin/
+obj/
+[Bb]uild/
+[Bb]uild[Ll]og.*
+
+## Ignore arquivos de pacotes NuGet ##
+*.nupkg
+*.snupkg
+packages/
+project.lock.json
+project.assets.json
+*.nuspec
+*.psmdcp
+
+## Ignore arquivos temporários do sistema ##
+*.tmp
+*.bak
+*.swp
+*.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+## Ignore bancos de dados locais ##
+*.mdf
+*.ldf
+*.dbmdl
+App_Data/*.mdf
+App_Data/*.ldf
+
+## Ignore configurações de publicação e transformações de configuração ##
+*.pubxml
+*.publishproj
+*.psess
+*.vsp
+*.pfx
+*.key
+*.orig
+*.publishsettings
+
+## Ignore pastas de testes ##
+TestResults/
+*.testsettings
+*.vsmdi
+
+## Ignore arquivos gerados por ferramentas ##
+*.dll
+*.exe
+*.pdb
+*.cache
+*.class
+*.jar
+*.war
+*.ear
